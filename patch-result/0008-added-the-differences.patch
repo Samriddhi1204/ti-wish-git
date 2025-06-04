@@ -1,0 +1,26 @@
+From 5f7fbb4ca8caf3c698eec6d26f9351f18ec2bf44 Mon Sep 17 00:00:00 2001
+From: Samriddhi <samriddhishrivastava304@gmail.com>
+Date: Tue, 3 Jun 2025 23:53:18 +0530
+Subject: [PATCH 8/8] added the differences
+
+---
+ stash.txt | 7 +++++++
+ 1 file changed, 7 insertions(+)
+ create mode 100644 stash.txt
+
+diff --git a/stash.txt b/stash.txt
+new file mode 100644
+index 0000000..4709035
+--- /dev/null
++++ b/stash.txt
+@@ -0,0 +1,7 @@
++Differences between git commit and git stash
++Git Commit vs Git Stash:
++
++1. git commit is used to save tracked changes to the local repository permanently.
++2. git stash temporarily stores both tracked and untracked changes in a stack-like storage.
++3. Commits are visible in git log; stashes are visible in git stash list.
++4. Commits form part of project history; stashes are intended for short-term work interruption.
+-- 
+2.49.0.windows.1
+
