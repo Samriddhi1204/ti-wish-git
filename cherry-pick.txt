@@ -1,0 +1,1 @@
+it is a command used to apply only certain commits to another branch not all of them , useful in restoring the changes and avoiding conflict
