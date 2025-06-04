@@ -1,1 +1,1 @@
-cthis is the conflicting base version
+something new
