@@ -1,0 +1,19 @@
+From f5ddd67b952461fd3838cfdcb043e3db8ef5e763 Mon Sep 17 00:00:00 2001
+From: Samriddhi <samriddhishrivastava304@gmail.com>
+Date: Wed, 4 Jun 2025 22:49:39 +0530
+Subject: [PATCH 12/13] new change
+
+---
+ rebase.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/rebase.txt b/rebase.txt
+index 8c6fc44..dc0251b 100644
+--- a/rebase.txt
++++ b/rebase.txt
+@@ -1 +1 @@
+-cthis is the conflicting base version
++something new
+-- 
+2.49.0.windows.1
+

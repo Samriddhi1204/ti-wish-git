@@ -1,0 +1,36 @@
+From 07036400d731feb50566bd2c6d74ee641d688f50 Mon Sep 17 00:00:00 2001
+From: Samriddhi <samriddhishrivastava304@gmail.com>
+Date: Tue, 3 Jun 2025 23:01:50 +0530
+Subject: [PATCH 02/13] rebase commit
+
+---
+ rebase-example.txt | 0
+ test1              | 0
+ test2              | 0
+ text1              | 2 ++
+ 4 files changed, 2 insertions(+)
+ create mode 100644 rebase-example.txt
+ create mode 100644 test1
+ create mode 100644 test2
+ create mode 100644 text1
+
+diff --git a/rebase-example.txt b/rebase-example.txt
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test1 b/test1
+new file mode 100644
+index 0000000..e69de29
+diff --git a/test2 b/test2
+new file mode 100644
+index 0000000..e69de29
+diff --git a/text1 b/text1
+new file mode 100644
+index 0000000..8a9448c
+--- /dev/null
++++ b/text1
+@@ -0,0 +1,2 @@
++hi
++q
+-- 
+2.49.0.windows.1
+

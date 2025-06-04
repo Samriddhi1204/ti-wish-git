@@ -1,0 +1,19 @@
+From c826ed05e0d7ef8d00e6673ba61c112f71c35662 Mon Sep 17 00:00:00 2001
+From: Samriddhi <samriddhishrivastava304@gmail.com>
+Date: Wed, 4 Jun 2025 22:24:02 +0530
+Subject: [PATCH 11/13] conflicting change in base branch
+
+---
+ rebase.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/rebase.txt b/rebase.txt
+index e5d1bf5..8c6fc44 100644
+--- a/rebase.txt
++++ b/rebase.txt
+@@ -1 +1 @@
+-this is the base version
++cthis is the conflicting base version
+-- 
+2.49.0.windows.1
+

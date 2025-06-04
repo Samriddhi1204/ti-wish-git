@@ -1,0 +1,277 @@
+From b0afc57b652e67a8645fdb06dc82950de1cca117 Mon Sep 17 00:00:00 2001
+From: Samriddhi <samriddhishrivastava304@gmail.com>
+Date: Wed, 4 Jun 2025 20:32:02 +0530
+Subject: [PATCH 09/13] added the patch files
+
+---
+ patch-result/0001-rebase-example.patch        | 16 +++++++++
+ patch-result/0001-some-commit.patch           | 24 +++++++++++++
+ patch-result/0002-rebase-commit.patch         | 36 +++++++++++++++++++
+ patch-result/0003-deletr-example.patch        | 16 +++++++++
+ patch-result/0004-first-commit.patch          | 20 +++++++++++
+ patch-result/0005-second-change.patch         | 19 ++++++++++
+ ...h-samriddhi-dev2-into-samriddhi-dev1.patch |  8 +++++
+ patch-result/0007-rebase-example.patch        | 16 +++++++++
+ patch-result/0008-added-the-differences.patch | 26 ++++++++++++++
+ test1                                         |  1 +
+ test3.txt                                     |  0
+ 11 files changed, 182 insertions(+)
+ create mode 100644 patch-result/0001-rebase-example.patch
+ create mode 100644 patch-result/0001-some-commit.patch
+ create mode 100644 patch-result/0002-rebase-commit.patch
+ create mode 100644 patch-result/0003-deletr-example.patch
+ create mode 100644 patch-result/0004-first-commit.patch
+ create mode 100644 patch-result/0005-second-change.patch
+ create mode 100644 patch-result/0006-Merge-branch-samriddhi-dev2-into-samriddhi-dev1.patch
+ create mode 100644 patch-result/0007-rebase-example.patch
+ create mode 100644 patch-result/0008-added-the-differences.patch
+ create mode 100644 test3.txt
+
+diff --git a/patch-result/0001-rebase-example.patch b/patch-result/0001-rebase-example.patch
+new file mode 100644
+index 0000000..ca784ee
+--- /dev/null
++++ b/patch-result/0001-rebase-example.patch
+@@ -0,0 +1,16 @@
++From 22f0d2114c992b206fd8a52919465d03ba81ff52 Mon Sep 17 00:00:00 2001
++From: Samriddhi <samriddhishrivastava304@gmail.com>
++Date: Tue, 3 Jun 2025 23:12:58 +0530
++Subject: [PATCH] rebase-example
++
++---
++ rebase example.txt | 0
++ 1 file changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 rebase example.txt
++
++diff --git a/rebase example.txt b/rebase example.txt
++new file mode 100644
++index 0000000..e69de29
++-- 
++2.49.0.windows.1
++
+diff --git a/patch-result/0001-some-commit.patch b/patch-result/0001-some-commit.patch
+new file mode 100644
+index 0000000..8be70f2
+--- /dev/null
++++ b/patch-result/0001-some-commit.patch
+@@ -0,0 +1,24 @@
++From 377c285a3fc3543e098c03fcd9790881917409bf Mon Sep 17 00:00:00 2001
++From: Samriddhi <samriddhishrivastava304@gmail.com>
++Date: Tue, 3 Jun 2025 20:53:32 +0530
++Subject: [PATCH 1/8] some commit
++
++Signed-off-by: Samriddhi <samriddhishrivastava304@gmail.com>
++---
++ hobbiies.txt | 4 ++++
++ 1 file changed, 4 insertions(+)
++ create mode 100644 hobbiies.txt
++
++diff --git a/hobbiies.txt b/hobbiies.txt
++new file mode 100644
++index 0000000..6fc5bca
++--- /dev/null
+++++ b/hobbiies.txt
++@@ -0,0 +1,4 @@
+++sketching
+++travelling
+++binge watching
+++reading novels
++-- 
++2.49.0.windows.1
++
+diff --git a/patch-result/0002-rebase-commit.patch b/patch-result/0002-rebase-commit.patch
+new file mode 100644
+index 0000000..42c9495
+--- /dev/null
++++ b/patch-result/0002-rebase-commit.patch
+@@ -0,0 +1,36 @@
++From 07036400d731feb50566bd2c6d74ee641d688f50 Mon Sep 17 00:00:00 2001
++From: Samriddhi <samriddhishrivastava304@gmail.com>
++Date: Tue, 3 Jun 2025 23:01:50 +0530
++Subject: [PATCH 2/8] rebase commit
++
++---
++ rebase-example.txt | 0
++ test1              | 0
++ test2              | 0
++ text1              | 2 ++
++ 4 files changed, 2 insertions(+)
++ create mode 100644 rebase-example.txt
++ create mode 100644 test1
++ create mode 100644 test2
++ create mode 100644 text1
++
++diff --git a/rebase-example.txt b/rebase-example.txt
++new file mode 100644
++index 0000000..e69de29
++diff --git a/test1 b/test1
++new file mode 100644
++index 0000000..e69de29
++diff --git a/test2 b/test2
++new file mode 100644
++index 0000000..e69de29
++diff --git a/text1 b/text1
++new file mode 100644
++index 0000000..8a9448c
++--- /dev/null
+++++ b/text1
++@@ -0,0 +1,2 @@
+++hi
+++q
++-- 
++2.49.0.windows.1
++
+diff --git a/patch-result/0003-deletr-example.patch b/patch-result/0003-deletr-example.patch
+new file mode 100644
+index 0000000..5a7c6fa
+--- /dev/null
++++ b/patch-result/0003-deletr-example.patch
+@@ -0,0 +1,16 @@
++From 5df6213bd11165d0bdc74bdfeb6214529bb69f5a Mon Sep 17 00:00:00 2001
++From: Samriddhi <samriddhishrivastava304@gmail.com>
++Date: Tue, 3 Jun 2025 23:10:47 +0530
++Subject: [PATCH 3/8] deletr example
++
++---
++ rebase-example.txt | 0
++ 1 file changed, 0 insertions(+), 0 deletions(-)
++ delete mode 100644 rebase-example.txt
++
++diff --git a/rebase-example.txt b/rebase-example.txt
++deleted file mode 100644
++index e69de29..0000000
++-- 
++2.49.0.windows.1
++
+diff --git a/patch-result/0004-first-commit.patch b/patch-result/0004-first-commit.patch
+new file mode 100644
+index 0000000..65cda03
+--- /dev/null
++++ b/patch-result/0004-first-commit.patch
+@@ -0,0 +1,20 @@
++From 0aec692d137a09cb64a50c3129ffc0f11cc2665b Mon Sep 17 00:00:00 2001
++From: Samriddhi <samriddhishrivastava304@gmail.com>
++Date: Tue, 3 Jun 2025 19:39:02 +0530
++Subject: [PATCH 4/8] first commit
++
++---
++ wish-2025-ti.txt | 1 +
++ 1 file changed, 1 insertion(+)
++ create mode 100644 wish-2025-ti.txt
++
++diff --git a/wish-2025-ti.txt b/wish-2025-ti.txt
++new file mode 100644
++index 0000000..3934e62
++--- /dev/null
+++++ b/wish-2025-ti.txt
++@@ -0,0 +1 @@
+++Samriddhi Shrivastava
++-- 
++2.49.0.windows.1
++
+diff --git a/patch-result/0005-second-change.patch b/patch-result/0005-second-change.patch
+new file mode 100644
+index 0000000..d3dbe53
+--- /dev/null
++++ b/patch-result/0005-second-change.patch
+@@ -0,0 +1,19 @@
++From 4a01505b135ee3efab3f9b3297c254c38294dbf7 Mon Sep 17 00:00:00 2001
++From: Samriddhi <samriddhishrivastava304@gmail.com>
++Date: Tue, 3 Jun 2025 19:46:39 +0530
++Subject: [PATCH 5/8] second change
++
++---
++ wish-2025-ti.txt | 1 +
++ 1 file changed, 1 insertion(+)
++
++diff --git a/wish-2025-ti.txt b/wish-2025-ti.txt
++index 3934e62..65e755f 100644
++--- a/wish-2025-ti.txt
+++++ b/wish-2025-ti.txt
++@@ -1 +1,2 @@
++ Samriddhi Shrivastava
+++modified
++-- 
++2.49.0.windows.1
++
+diff --git a/patch-result/0006-Merge-branch-samriddhi-dev2-into-samriddhi-dev1.patch b/patch-result/0006-Merge-branch-samriddhi-dev2-into-samriddhi-dev1.patch
+new file mode 100644
+index 0000000..8d5397b
+--- /dev/null
++++ b/patch-result/0006-Merge-branch-samriddhi-dev2-into-samriddhi-dev1.patch
+@@ -0,0 +1,8 @@
++From 9c878f21df343737932cff5f2d01bd07e125de74 Mon Sep 17 00:00:00 2001
++From: Samriddhi <samriddhishrivastava304@gmail.com>
++Date: Tue, 3 Jun 2025 22:57:13 +0530
++Subject: [PATCH 6/8] Merge branch 'samriddhi-dev2' into samriddhi-dev1
++
++-- 
++2.49.0.windows.1
++
+diff --git a/patch-result/0007-rebase-example.patch b/patch-result/0007-rebase-example.patch
+new file mode 100644
+index 0000000..ee4571c
+--- /dev/null
++++ b/patch-result/0007-rebase-example.patch
+@@ -0,0 +1,16 @@
++From 22f0d2114c992b206fd8a52919465d03ba81ff52 Mon Sep 17 00:00:00 2001
++From: Samriddhi <samriddhishrivastava304@gmail.com>
++Date: Tue, 3 Jun 2025 23:12:58 +0530
++Subject: [PATCH 7/8] rebase-example
++
++---
++ rebase example.txt | 0
++ 1 file changed, 0 insertions(+), 0 deletions(-)
++ create mode 100644 rebase example.txt
++
++diff --git a/rebase example.txt b/rebase example.txt
++new file mode 100644
++index 0000000..e69de29
++-- 
++2.49.0.windows.1
++
+diff --git a/patch-result/0008-added-the-differences.patch b/patch-result/0008-added-the-differences.patch
+new file mode 100644
+index 0000000..809d814
+--- /dev/null
++++ b/patch-result/0008-added-the-differences.patch
+@@ -0,0 +1,26 @@
++From 5f7fbb4ca8caf3c698eec6d26f9351f18ec2bf44 Mon Sep 17 00:00:00 2001
++From: Samriddhi <samriddhishrivastava304@gmail.com>
++Date: Tue, 3 Jun 2025 23:53:18 +0530
++Subject: [PATCH 8/8] added the differences
++
++---
++ stash.txt | 7 +++++++
++ 1 file changed, 7 insertions(+)
++ create mode 100644 stash.txt
++
++diff --git a/stash.txt b/stash.txt
++new file mode 100644
++index 0000000..4709035
++--- /dev/null
+++++ b/stash.txt
++@@ -0,0 +1,7 @@
+++Differences between git commit and git stash
+++Git Commit vs Git Stash:
+++
+++1. git commit is used to save tracked changes to the local repository permanently.
+++2. git stash temporarily stores both tracked and untracked changes in a stack-like storage.
+++3. Commits are visible in git log; stashes are visible in git stash list.
+++4. Commits form part of project history; stashes are intended for short-term work interruption.
++-- 
++2.49.0.windows.1
++
+diff --git a/test1 b/test1
+index e69de29..c597d54 100644
+--- a/test1
++++ b/test1
+@@ -0,0 +1 @@
++hi its me again
+\ No newline at end of file
+diff --git a/test3.txt b/test3.txt
+new file mode 100644
+index 0000000..e69de29
+-- 
+2.49.0.windows.1
+

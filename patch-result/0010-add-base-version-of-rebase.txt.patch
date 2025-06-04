@@ -1,0 +1,19 @@
+From 3fb442c8da4abaeddc3a30260246814f39e7ab9b Mon Sep 17 00:00:00 2001
+From: Samriddhi <samriddhishrivastava304@gmail.com>
+Date: Wed, 4 Jun 2025 22:22:03 +0530
+Subject: [PATCH 10/13] add base version of rebase.txt
+
+---
+ rebase.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/rebase.txt b/rebase.txt
+index 27797e5..e5d1bf5 100644
+--- a/rebase.txt
++++ b/rebase.txt
+@@ -1 +1 @@
+-This is to rebase the branch
++this is the base version
+-- 
+2.49.0.windows.1
+
