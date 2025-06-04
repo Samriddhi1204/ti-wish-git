@@ -1,7 +1,0 @@
-Differences between git commit and git stash
-Git Commit vs Git Stash:
-
-1. git commit is used to save tracked changes to the local repository permanently.
-2. git stash temporarily stores both tracked and untracked changes in a stack-like storage.
-3. Commits are visible in git log; stashes are visible in git stash list.
-4. Commits form part of project history; stashes are intended for short-term work interruption.
